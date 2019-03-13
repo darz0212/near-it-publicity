@@ -90,7 +90,9 @@ p {
 .navbar-brand {
     padding: 9px 15px;
 }
-@media(min-width:300px) {
+
+@media(min-width:500px) {
+    
     .navbar-default {
         background-color: transparent;
     }
@@ -129,9 +131,12 @@ p {
         padding-top: 45px;
     }
 }
-@media (max-width: 768px) {
+@media (max-width: 400px) {
     .navbar-brand img {} .navbar-default {
       /*  background-color: #fff !important; */
+    }
+    .navbar-header{
+        width: 100% !important;
     }
 }
 .navbar-default .navbar-nav>.active>a,
@@ -162,12 +167,18 @@ p {
     width: 100%;
 }
 
-@media (max-width: 768px){
+@media (max-width: 760px){
     .home-iphone{
         display: none;
     }
     .home_text{
         text-align: center;
+    }
+    .navbar-fixed-top, .navbar-fixed-bottom {
+        position: sticky !important;
+        right: 0;
+        left: 0;
+        z-index: 1030;
     }
 
 }

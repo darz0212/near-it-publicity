@@ -1,7 +1,7 @@
 
 /* This Css is for small mobile */
 
-@media (max-width: 767px) {
+@media (max-width: 500px) {
     .single_store {
         border-left: 0px;
     }
