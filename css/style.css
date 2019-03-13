@@ -30,6 +30,7 @@ body {
     font-family: 'Raleway', sans-serif;
     overflow-y: scroll;
     overflow-x: hidden;
+    width: 100%;
 }
 p {
     font-family: 'Raleway', sans-serif;
@@ -48,8 +49,8 @@ p {
     text-align: center;
     position: relative;
     color: #333;
-    font-size: 30px;
-    font-weight: 400;
+    font-size: 18px;
+    font-weight: 700;
 }
 .section_title h2:after {
     content: "";
@@ -130,14 +131,34 @@ p {
     .navbar-nav>li>a {
         padding-top: 45px;
     }
+    .row.heading h2 {
+    color: #fff;
+    font-size: 52.52px;
+    line-height: 95px;
+    font-weight: 400;
+    text-align: center;
+    margin: 0 0 40px;
+    padding-bottom: 20px;
+    text-transform: uppercase;
 }
-@media (max-width: 400px) {
+}
+@media (max-width: 500px) {
     .navbar-brand img {} .navbar-default {
       /*  background-color: #fff !important; */
     }
     .navbar-header{
         width: 100% !important;
     }
+    .row.heading h2 {
+    color: #fff;
+    font-size: 20.52px;
+    line-height: 95px;
+    font-weight: 400;
+    text-align: center;
+    margin: 0 0 40px;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+}
 }
 .navbar-default .navbar-nav>.active>a,
 .navbar-default .navbar-nav>.active>a:hover,
@@ -485,7 +506,7 @@ div.carousel-inner .item img {
 }
 .right_single_feature h3 {
     text-transform: uppercase;
-    font-size: 25px;
+    font-size: 16px;
     font-weight: 700;
     margin-bottom: 21px;
     color: #333333;
@@ -520,7 +541,7 @@ div.carousel-inner .item img {
 }
 .left_single_feature h3 {
     text-transform: uppercase;
-    font-size: 25px;
+    font-size: 16px;
     font-weight: 700;
     margin-bottom: 21px;
     color: #333333;
@@ -1108,16 +1129,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 
 
 
-.row.heading h2 {
-    color: #fff;
-    font-size: 52.52px;
-    line-height: 95px;
-    font-weight: 400;
-    text-align: center;
-    margin: 0 0 40px;
-    padding-bottom: 20px;
-    text-transform: uppercase;
-}
+
 ul{
   margin:0;
   padding:0;
@@ -1228,4 +1240,8 @@ ul{
     -moz-transform: rotate(345deg);
     rotation: 345deg;
     filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=345);
+}
+
+.data-email{
+    font-size: 2vw;
 }

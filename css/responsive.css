@@ -31,6 +31,10 @@
     .about_phone img {
         width: 100%;
     }
+
+    body{
+        overflow-x: hidden;
+    }
 }
 /* This Css is for tablet */
 
