@@ -88,9 +88,9 @@ p {
     margin-top: -100px
 }
 .navbar-brand {
-    padding: 9px 0px;
+    padding: 9px 15px;
 }
-@media(min-width:560px) {
+@media(min-width:300px) {
     .navbar-default {
         background-color: transparent;
     }
