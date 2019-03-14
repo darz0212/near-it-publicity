@@ -38,7 +38,7 @@
 }
 /* This Css is for tablet */
 
-@media (min-width: 300px) {
+@media (min-width: 760px) {
     .single_store {
         border-left: 0px;
     }
